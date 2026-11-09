@@ -1,0 +1,24 @@
+Evaluation Results
+
+| # | Category | Question | Answer | Retrieval | Answer quality | Faithfulness | Correct |
+|---|---|---|---|---|---|---|---|
+| 1 | positive | Atari games in the original DQN paper, and wins vs a human expert | answered | 5 | 5 | 5 | True |
+| 2 | positive | Three components of Voyager | answered | 5 | 5 | 5 | True |
+| 3 | positive | Voyager’s unique-item factor vs prior state of the art | answered (3.3x) | 5 | 5 | 5 | True |
+| 4 | positive | Agent57 milestone on Atari | answered | 5 | 5 | 5 | True |
+| 5 | positive | What MuZero learns a model of | answered | 5 | 5 | 5 | True |
+| 6 | positive | AlphaZero time to superhuman level | answered | 5 | 5 | 5 | True |
+| 7 | positive | Opponent OpenAI Five defeated | answered (Team OG) | 5 | 5 | 5 | True |
+| 8 | positive | Number of generative agents and architecture components | answered (twenty-five) | 5 | 5 | 5 | True |
+| 9 | positive | YouTube videos in MineDojo’s knowledge base | Not found in provided abstracts. | 3 | 1 | 5 | False |
+| 10 | positive | What is TextWorld? | answered | 5 | 5 | 5 | True |
+| 11 | negative | AlphaZero training cost in dollars | Not found in provided abstracts. | 3 | 5 | 5 | True |
+| 12 | negative | GPU used for the original DQN | Not found in provided abstracts. | 3 | 5 | 5 | True |
+| 13 | negative | Parameters of Voyager’s GPT-4 | Not found in provided abstracts. | 4 | 5 | 5 | True |
+| 14 | negative | Year Minecraft was first released | Not found in provided abstracts. | 3 | 5 | 5 | True |
+| 15 | negative | Agent57’s learning rate | Not found in provided abstracts. | 3 | 5 | 5 | True |
+| 16 | adversarial | DQN “beat a human expert on all seven games” | Not found in provided abstracts. | 5 | 5 | 5 | True |
+| 17 | adversarial | “Voyager fine-tunes GPT-4” | Not found in provided abstracts. | 5 | 5 | 5 | True |
+| 18 | adversarial | Agent57 “beat the human baseline on 49 games” | Not found in provided abstracts. | 5 | 1 | 5 | False |
+| 19 | adversarial | Generative agents “defeated the Dota 2 champions” | Not found in provided abstracts. | 5 | 5 | 5 | True |
+| 20 | adversarial | AlphaZero “9 hours of training” | Not found in provided abstracts. | 5 | 5 | 5 | True |
