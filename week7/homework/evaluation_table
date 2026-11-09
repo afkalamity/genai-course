@@ -1,24 +1,26 @@
-# Evaluation Results
+# 20-question evaluation table
 
-| # | Category | Question | Answer | Retrieval | Answer quality | Faithfulness | Correct |
+| # | Category | Question | Response | Retrieval (1-5) | Answer quality (1-5) | Faithfulness (1-5) | Correct |
 |---|---|---|---|---|---|---|---|
-| 1 | positive | Atari games in the original DQN paper, and wins vs a human expert | answered | 5 | 5 | 5 | True |
-| 2 | positive | Three components of Voyager | answered | 5 | 5 | 5 | True |
-| 3 | positive | Voyager’s unique-item factor vs prior state of the art | answered (3.3x) | 5 | 5 | 5 | True |
-| 4 | positive | Agent57 milestone on Atari | answered | 5 | 5 | 5 | True |
-| 5 | positive | What MuZero learns a model of | answered | 5 | 5 | 5 | True |
-| 6 | positive | AlphaZero time to superhuman level | answered | 5 | 5 | 5 | True |
-| 7 | positive | Opponent OpenAI Five defeated | answered (Team OG) | 5 | 5 | 5 | True |
-| 8 | positive | Number of generative agents and architecture components | answered (twenty-five) | 5 | 5 | 5 | True |
-| 9 | positive | YouTube videos in MineDojo’s knowledge base | Not found in provided abstracts. | 3 | 1 | 5 | False |
-| 10 | positive | What is TextWorld? | answered | 5 | 5 | 5 | True |
-| 11 | negative | AlphaZero training cost in dollars | Not found in provided abstracts. | 3 | 5 | 5 | True |
-| 12 | negative | GPU used for the original DQN | Not found in provided abstracts. | 3 | 5 | 5 | True |
-| 13 | negative | Parameters of Voyager’s GPT-4 | Not found in provided abstracts. | 4 | 5 | 5 | True |
-| 14 | negative | Year Minecraft was first released | Not found in provided abstracts. | 3 | 5 | 5 | True |
-| 15 | negative | Agent57’s learning rate | Not found in provided abstracts. | 3 | 5 | 5 | True |
-| 16 | adversarial | DQN “beat a human expert on all seven games” | Not found in provided abstracts. | 5 | 5 | 5 | True |
-| 17 | adversarial | “Voyager fine-tunes GPT-4” | Not found in provided abstracts. | 5 | 5 | 5 | True |
-| 18 | adversarial | Agent57 “beat the human baseline on 49 games” | Not found in provided abstracts. | 5 | 1 | 5 | False |
-| 19 | adversarial | Generative agents “defeated the Dota 2 champions” | Not found in provided abstracts. | 5 | 5 | 5 | True |
-| 20 | adversarial | AlphaZero “9 hours of training” | Not found in provided abstracts. | 5 | 5 | 5 | True |
+| 1 | positive | How many Atari 2600 games did the original deep Q-learning paper evaluate, and on how many did it surpass a human expert? | Answered | 5 | 5 | 5 | True |
+| 2 | positive | What three components does the Voyager agent contain? | Answered | 5 | 5 | 5 | True |
+| 3 | positive | By what factor does Voyager obtain more unique items than the prior state of the art? | Answered | 5 | 5 | 5 | True |
+| 4 | positive | What milestone did Agent57 reach on the Atari 2600 benchmark? | Answered | 5 | 5 | 5 | True |
+| 5 | positive | What does MuZero learn a model of, given that it is not told the rules of the game? | Answered | 5 | 5 | 5 | True |
+| 6 | positive | How long did it take AlphaZero to reach superhuman performance in chess, shogi and Go? | Answered | 5 | 5 | 5 | True |
+| 7 | positive | Which opponent did OpenAI Five defeat to become the first AI to beat world champions at an esports game? | Answered | 5 | 5 | 5 | True |
+| 8 | positive | How many generative agents populate the sandbox world, and what three components extend the language model in their architecture? | Answered | 5 | 5 | 5 | True |
+| 9 | positive | How many YouTube videos are in the MineDojo internet-scale knowledge base? | Not found | 3 | 1 | 5 | False |
+| 10 | positive | What is TextWorld? | Answered | 5 | 5 | 5 | True |
+| 11 | negative | How many dollars did it cost DeepMind to train AlphaZero? | Not found | 3 | 5 | 5 | True |
+| 12 | negative | Which GPU model was used to train the original Atari DQN? | Not found | 3 | 5 | 5 | True |
+| 13 | negative | How many parameters does the GPT-4 model used by Voyager have? | Not found | 4 | 5 | 5 | True |
+| 14 | negative | What year was the game Minecraft first released? | Not found | 3 | 5 | 5 | True |
+| 15 | negative | What learning rate did Agent57 use? | Not found | 3 | 5 | 5 | True |
+| 16 | adversarial | Why did the deep Q-learning paper report that it beat a human expert on all seven Atari games? | Not found | 5 | 5 | 5 | True |
+| 17 | adversarial | Voyager fine-tunes GPT-4 on Minecraft data to learn new skills. Which model parameters are updated during this fine-tuning? | Not found | 5 | 5 | 5 | True |
+| 18 | adversarial | Agent57 beat the human baseline on 49 Atari games. Which games did it fail on? | Not found | 5 | 1 | 5 | False |
+| 19 | adversarial | Which generative agents paper reported that its agents defeated the Dota 2 world champions? | Not found | 5 | 5 | 5 | True |
+| 20 | adversarial | The AlphaZero paper says it needed only 9 hours of training to reach superhuman level. Is that what it reports for all three games? | Not found | 5 | 5 | 5 | True |
+
+**Overall: 18/20 correct*
